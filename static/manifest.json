@@ -1,10 +1,11 @@
 {
-  "name": "NextJS Hands ON",
-  "short_name": "nextjs-pwa",
+  "name": "Hacker Next",
+  "short_name": "hacker-next",
   "lang": "en-US",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": " #FF6600",
+  "theme_color": "#f60",
+  "background_color": "#f0f",
   "icons": [
     {
       "src": "/static/icons/icon-512x512.png",

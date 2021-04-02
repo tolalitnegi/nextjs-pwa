@@ -1,24 +1,21 @@
 {
-  "name": "nextjs-pwa",
+  "name": "hacker-next",
   "version": "1.0.0",
-  "description": "Nextjs PWA hacker new nextjs app for handson",
+  "description": "A Hacker News clone made with Next.js",
   "main": "server.js",
   "scripts": {
-    "next": "next -p 3008",
-    "start-next": "npm run next",
-    "dev": "node server.js -p 3008",
+    "dev": "nodemon server.js",
     "start": "NODE_ENV=production node server.js",
     "build": "next build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "heroku-postbuild": "next build"
   },
-  "author": "tolalitnegi@gmail.com",
+  "author": "Reed Barger",
   "license": "ISC",
   "dependencies": {
-    "isomorphic-fetch": "^3.0.0",
-    "isomorphic-unfetch": "^3.1.0",
-    "next": "^10.0.8",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "sw-precache-webpack-plugin": "^1.0.0"
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "sw-precache-webpack-plugin": "^0.11.5"
   }
 }
